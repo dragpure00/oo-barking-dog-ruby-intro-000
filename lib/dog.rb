@@ -6,10 +6,10 @@ class Dog
   def name
     @name
   end
-      def initialize(bark)
+      def initialize(bark="woof!")
         @bark=bark
       end
-      def bark=(bark="woof!")
+      def bark=(bark)
         @bark=bark
       end
       def bark
