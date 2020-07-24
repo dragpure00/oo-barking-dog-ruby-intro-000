@@ -15,5 +15,5 @@ class Dog
       def breed
         @name
       end
-      
+
   end
